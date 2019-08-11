@@ -1,0 +1,338 @@
+@media (max-width: 1100px) {
+    .container {
+        width: 95%;
+    }
+
+    .slide-caption {
+        padding: 20px 0;
+    }
+
+    .slide-caption .slide-title {
+        font-size: 70px;
+    }
+
+    .slide-caption .slide-subtitle h3 {
+        font-size: 50px;
+    }
+
+    .slide-caption .slide-subtitle span {
+        font-size: 50px;
+    }
+
+    .slider .slick-next {
+        bottom: 15%;
+    }
+    
+    .slider.slick-initialized .slick-prev.slick-arrow {
+        bottom: 15%;
+    }
+
+    .contact-number input {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .about .about-content .about-content-picture {
+        display: none;
+    }
+
+    .about .about-content .about-content-text {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .services .card {
+        width: 30%;
+    }
+
+    .advantages .advantages-list {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .advantages .advantages-list .advantage {
+        width: 40%;
+        align-self: center;
+    }
+
+    .slick-dots li {
+        width: 20px;
+        height: 20px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+    }
+
+    .slick-dots li.slick-active {
+        border: 2px solid #e60012;
+    }
+
+    .map-form .flex-row {
+        display: block;
+    }
+
+    .map-form .form {
+        width: 100%;
+    }
+
+    .map-form .map {
+        width: 100%;
+    }
+
+    .map-form .form form .flex-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .map-form .form .form-title {
+        text-align: center;
+    }
+
+    .map-form .form form .btn {
+        width: 40%;
+    }
+
+    .map-form .form form .flex-row .form-group {
+        width: 45%;
+    }
+
+    .page-footer .flex-row {
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .page-footer .page-footer-logo {
+        order: 1;
+        width: 40%;
+    }
+
+    .page-footer .page-footer-contacts {
+        width: 60%;
+        order: 3;
+        padding: 0;
+        text-align: right;
+        margin-top: -100px;
+    }
+
+    .page-footer .page-footer-networks {
+        width: 50%;
+        order: 2;
+    }
+
+    .page-footer .page-footer-contacts .desktop-mail {
+        display: none;
+    }
+
+    .page-footer .mobile-mail {
+        display: block;
+        order: 4;
+        color: #292929;
+        width: 30%;
+        margin-top: -85px;
+    }
+
+    .page-footer .page-footer-contacts h4 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .page-header .logo {
+        order: 2;
+        width: 30%;
+    }
+
+    .page-header .flex-row {
+        flex-wrap: wrap;
+    }
+
+    .page-header .header-phones {
+        order: 1;
+        width: 100%;
+    }
+
+    .page-header .header-phones img {
+        display: none;
+    }
+
+    .page-header .header-phones .header-phones-numbers {
+        display: flex;
+    }
+
+    .page-header .header-phones .header-phones-numbers p {
+        padding-left: 10px;
+    }
+
+    .page-header .header-button {
+        order: 3;
+        width: 65%;
+        text-align: right;
+    }
+
+    .page-header .header-button .btn {
+        padding: 15px;
+    }
+
+    .section-title {
+        font-size: 35px;
+    }
+
+    .slider .slick-arrow {
+        display: none;
+    }
+
+    .slide .slider-picture {
+        padding: 125px 0;
+        background-size: 100% 250px;
+        background-repeat: no-repeat;
+    }
+
+    .slide-caption .slide-title {
+        font-size: 40px;
+    }
+
+    .slide-caption .slide-subtitle h3 {
+        font-size: 30px;
+    }
+
+    .slide-caption .slide-subtitle span {
+        font-size: 30px;
+    }
+
+    .contact-number input {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .contact-number .btn {
+        width: 100%;
+    }
+
+    .about .about-content .about-content-text {
+        width: 90%;
+    }
+
+    .map-form .map .cities-list {
+        flex-wrap: wrap;
+    }
+
+    .map-form .map .cities-list li {
+        width: 50%;
+        text-align: center;
+        border-right: none;
+    }
+
+    .map-form .map .cities-list li::after {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 3px;
+        background-color: #e60012;
+        margin: 5px auto;
+    }
+
+    .map-picture {
+        display: none;
+    }
+
+    .map-form {
+        padding: 40px 0;
+    }
+
+    .map-form .form form .flex-row {
+        display: block;
+    }
+
+    .map-form .form form .flex-row .form-group {
+        width: auto;
+    }
+
+    .map-form .form form .btn {
+        width: 100%;
+    }
+
+    .services {
+        padding: 40px 0;
+    }
+
+    .services .cards {
+        display: block;
+    }
+
+    .services .card, .services .card.active {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .advantages {
+        padding: 40px 0;
+    }
+
+    .advantages .section-title {
+        margin-bottom: 40px;
+    }
+
+    .advantages .advantages-list .advantage {
+        width: 70%;
+        align-self: center;
+    }
+
+    .page-footer .flex-row {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .page-footer .page-footer-logo {
+        width: 50%;
+        order: 1;
+    }
+
+    .page-footer .page-footer-networks a {
+        margin-right: 10px;
+    }
+
+    .page-footer .page-footer-networks {
+        width: 100%;
+        text-align: center;
+        order: 3;
+    }
+
+    .page-footer .page-footer-contacts {
+        width: 40%;
+        padding-left: 0;
+        order: 2;
+        margin-top: 0;
+    }
+
+    .page-footer .page-footer-contacts p {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .page-footer .mobile-mail {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+        order: 4;
+        margin-top: 0;
+    }
+
+    .page-footer .page-footer-contacts {
+        margin-top: 0;
+    }
+
+    .page-footer .mobile-mail {
+        margin-top: 0;
+    }
+}
