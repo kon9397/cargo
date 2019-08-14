@@ -57,6 +57,10 @@ $('.slider-wrapper').slick({
 });
 
 $('[data-modal]').click(function(e) {
+  $(`.card`).removeClass('active');
+  $(`.card .main-content`).addClass('active');
+  $(`.card .changed-content`).removeClass('active');
+
     let target = this.getAttribute('data-modal');
     
     $(`.card${target}`).addClass('active');

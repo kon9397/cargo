@@ -166,6 +166,8 @@
 
     .page-header .header-phones .header-phones-numbers {
         display: flex;
+        justify-content: flex-end;
+        width: 100%;
     }
 
     .page-header .header-phones .header-phones-numbers p {
@@ -179,7 +181,7 @@
     }
 
     .page-header .header-button .btn {
-        padding: 15px;
+        padding: 15px 30px;
     }
 
     .section-title {
@@ -219,6 +221,20 @@
 
     .about .about-content .about-content-text {
         width: 90%;
+    }
+
+    .about .about-content .about-content-text p .mobile-text {
+        display: none;
+    }
+
+    .about .about-content .about-content-text .mobile-button {
+        display: block;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        padding: 10px 15px;
+        border-radius: 20px;
     }
 
     .map-form .map .cities-list {
