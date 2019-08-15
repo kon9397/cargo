@@ -126,7 +126,7 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
 .slide-caption {
     position: absolute;
     padding: 50px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.507);
     bottom: 0;
     left: 0;
     right: 0;
@@ -350,11 +350,11 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 60px;
 }
 
 .advantages .advantages-list .advantage {
     margin-left: 15px;
+    padding-bottom: 60px;
     color: #ffffff;
     display: flex;
     align-items: flex-start;
