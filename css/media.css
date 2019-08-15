@@ -179,9 +179,12 @@
     .page-footer .mobile-mail {
         display: block;
         order: 4;
-        color: #292929;
         width: 30%;
         margin-top: -35px;
+    }
+
+    .page-footer .mobile-mail a {
+        color: #292929;
     }
 
     .page-footer .page-footer-contacts h4 {

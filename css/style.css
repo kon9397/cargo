@@ -466,7 +466,7 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
     font-weight: 500;
 }
 
-.page-footer .page-footer-contacts p { 
+.page-footer .page-footer-contacts p, .page-footer .page-footer-contacts p a { 
     color: #292929;
     margin-top: 15px;
 }
