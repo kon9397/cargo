@@ -51,4 +51,10 @@ advantageSlider();
 // Read more in about section
 $('.about-content-text .mobile-button').click(function() {
   $('.about-content-text p .mobile-text').toggleClass('active');
+
+  if($('.about-content-text p .mobile-text').hasClass('active')) {
+    $(this).text('Свернуть');
+  } else {
+    $(this).text('Подробнее');
+  }
 })

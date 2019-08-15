@@ -257,7 +257,7 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
 }
 
 .services .card.active {
-    width: 45%;
+    width: 350px;
 }
 
 .services .card .main-content .icon {
@@ -382,10 +382,11 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
 
 .map-form .flex-row {
     display: flex;
+    justify-content: space-between;
 }
 
 .map-form .map {
-    width: 75%;
+    width: 67%;
 }
 
 .map-form .map img {
@@ -405,7 +406,7 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
 }
 
 .map-form .form {
-    width: 35%;
+    width: 30%;
 }
 
 .map-form .form form .flex-row {

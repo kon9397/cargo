@@ -42,7 +42,7 @@
     }
 
     .services .card {
-        width: 30%;
+        width: 25%;
     }
 
     .advantages .advantage-switchers {
@@ -237,7 +237,7 @@
     }
 
     .page-header .header-button .btn {
-        padding: 15px 30px;
+        padding: 15px 20px;
     }
 
     .section-title {
@@ -346,7 +346,7 @@
     }
 
     .services .card, .services .card.active {
-        width: 70%;
+        width: 85%;
         margin: 0 auto;
         margin-bottom: 30px;
     }
@@ -362,6 +362,10 @@
     .advantages .advantages-list .advantage {
         width: 70%;
         margin: 0 auto;
+    }
+
+    .advantage-switcher.desktop, .advantages .advantage-switcher.mobile {
+        display: inline-block;
     }
 
     .advantages .advantages-list .advantage.desktop-item, .advantages .advantages-list .advantage.mobile-item {
