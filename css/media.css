@@ -93,6 +93,15 @@
         right: 0;
     }
 
+    
+    .advantages .advantage-switcher.mobile {
+        margin-right: 40px;
+    }
+
+    .advantages .advantage-switcher.mobile:last-child {
+        margin-right: 0;
+    }
+
     .slick-dots li {
         width: 20px;
         height: 20px;
@@ -146,20 +155,25 @@
     }
 
     .page-footer .page-footer-contacts {
-        width: 60%;
+        width: 65%;
         order: 3;
         padding: 0;
         text-align: right;
-        margin-top: -100px;
+        margin-top: -50px;
     }
 
     .page-footer .page-footer-networks {
         width: 50%;
         order: 2;
+        text-align: left;
     }
 
     .page-footer .page-footer-contacts .desktop-mail {
         display: none;
+    }
+
+    .page-footer .page-footer-contacts p {
+        margin-left: 200px;
     }
 
     .page-footer .mobile-mail {
@@ -167,11 +181,15 @@
         order: 4;
         color: #292929;
         width: 30%;
-        margin-top: -85px;
+        margin-top: -35px;
     }
 
     .page-footer .page-footer-contacts h4 {
         display: none;
+    }
+
+    .page-footer .footer-info {
+        width: 92%;
     }
 }
 
@@ -265,6 +283,10 @@
         display: none;
     }
 
+    .about .about-content .about-content-text p .mobile-text.active {
+        display: inline;
+    }
+
     .about .about-content .about-content-text .mobile-button {
         display: block;
         margin: 0 auto;
@@ -347,10 +369,6 @@
         left: 0;
     }
 
-    .advantages .advantage-switcher.mobile {
-        display: inline-block;
-    }
-
     .page-footer .flex-row {
         flex-wrap: wrap;
         justify-content: space-between;
@@ -369,7 +387,7 @@
     .page-footer .page-footer-networks {
         width: 100%;
         text-align: center;
-        order: 3;
+        order: 4;
     }
 
     .page-footer .page-footer-contacts {
@@ -382,21 +400,27 @@
     .page-footer .page-footer-contacts p {
         margin-top: 0;
         margin-bottom: 15px;
+        margin-left: 0;
     }
 
     .page-footer .mobile-mail {
         width: 100%;
         text-align: center;
         padding: 30px;
-        order: 4;
+        order: 3;
         margin-top: 0;
+        padding: 20px;
     }
-
+    
     .page-footer .page-footer-contacts {
         margin-top: 0;
     }
 
     .page-footer .mobile-mail {
         margin-top: 0;
+    }
+
+    .page-footer .footer-info {
+        width: auto;
     }
 }

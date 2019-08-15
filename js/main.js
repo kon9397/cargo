@@ -27,35 +27,6 @@ $('.slider').slick({
     ]
   });
 
-// $('.slider-wrapper').slick({
-//   // slidesToShow: 5,
-//   // slidesToScroll: 1,
-//   // autoplay: false,
-//   // autoplaySpeed: 2000,
-//   responsive: [
-//     {
-//       breakpoint: 9999,
-//       settings: "unslick"
-//     },
-//     {
-//       breakpoint: 1100,
-//       settings: {
-//         slidesToShow: 2,
-//         slidesToScroll: 2,
-//         dots: true
-//       }
-//     },
-//     {
-//       breakpoint: 500,
-//       settings: {
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//         dots: true
-//       }
-//     }
-//   ]
-// });
-
 $('[data-modal]').click(function(e) {
   $(`.card`).removeClass('active');
   $(`.card .main-content`).addClass('active');
@@ -75,3 +46,9 @@ $('[data-modal]').click(function(e) {
 });
 
 advantageSlider();
+
+
+// Read more in about section
+$('.about-content-text .mobile-button').click(function() {
+  $('.about-content-text p .mobile-text').toggleClass('active');
+})
