@@ -57,4 +57,12 @@ $('.about-content-text .mobile-button').click(function() {
   } else {
     $(this).text('Подробнее');
   }
+});
+
+$('.map-form form').submit(function(e) {
+  $(this).css('display', 'none');
+
+  $('.map-form .message').addClass('active');
+
+  e.preventDefault();
 })
