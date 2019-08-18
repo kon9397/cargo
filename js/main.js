@@ -1,11 +1,13 @@
 $('.slider').slick({
     arrows: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
         }
       },
@@ -13,7 +15,7 @@ $('.slider').slick({
         breakpoint: 900,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 2
+          slidesToScroll: 1
         }
       },
       {
@@ -63,6 +65,14 @@ $('.map-form form').submit(function(e) {
   $(this).css('display', 'none');
 
   $('.map-form .message').addClass('active');
+
+  e.preventDefault();
+});
+
+// 
+$('.contact-number form').submit(function(e) {
+  $(this).hide()
+  $('.contact-number .message').addClass('active');
 
   e.preventDefault();
 })

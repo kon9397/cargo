@@ -11,6 +11,12 @@
         font-size: 70px;
     }
 
+    .slide .slider-picture {
+        background-size: cover;
+        min-height: 600px;
+        background-position: 45%;
+    }
+
     .slide-caption .slide-subtitle h3 {
         font-size: 50px;
     }
@@ -145,8 +151,9 @@
 
     .page-footer .flex-row {
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
+        text-align: center;
     }
 
     .page-footer .page-footer-logo {
@@ -155,11 +162,13 @@
     }
 
     .page-footer .page-footer-contacts {
-        width: 65%;
+        width: 100%;
         order: 3;
         padding: 0;
-        text-align: right;
-        margin-top: -50px;
+    }
+
+    .page-footer-contacts .phones .phone {
+        min-width: 300px;
     }
 
     .page-footer .page-footer-networks {
@@ -173,14 +182,13 @@
     }
 
     .page-footer .page-footer-contacts p {
-        margin-left: 200px;
+        
     }
 
     .page-footer .mobile-mail {
         display: block;
         order: 4;
         width: 30%;
-        margin-top: -35px;
     }
 
     .page-footer .mobile-mail a {
@@ -252,9 +260,7 @@
     }
 
     .slide .slider-picture {
-        padding: 125px 0;
-        background-size: 100% 250px;
-        background-repeat: no-repeat;
+        min-height: 260px; 
     }
 
     .slide-caption .slide-title {
@@ -308,6 +314,7 @@
         width: 50%;
         text-align: center;
         border-right: none;
+        padding-bottom: 5px;
     }
 
     .map-form .map .cities-list li::after {
@@ -316,7 +323,10 @@
         width: 10px;
         height: 3px;
         background-color: #e60012;
-        margin: 5px auto;
+        margin: 10px auto;
+        position: absolute;
+        top: 16px;
+        left: 0%;
     }
 
     .map-picture {
@@ -379,29 +389,26 @@
     .page-footer .flex-row {
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
     }
 
     .page-footer .page-footer-logo {
-        width: 50%;
-        order: 1;
+        width: 70%;
+        margin: 0 auto;
     }
 
     .page-footer .page-footer-networks a {
         margin-right: 10px;
     }
 
-    .page-footer .page-footer-networks {
+    .page-footer .page-footer-contacts {
         width: 100%;
-        text-align: center;
-        order: 4;
+        padding-left: 0;
+        margin-top: 0;
     }
 
-    .page-footer .page-footer-contacts {
-        width: 40%;
-        padding-left: 0;
-        order: 2;
-        margin-top: 0;
+    .page-footer .page-footer-contacts .phones .phone {
+        width: 100%;
+        text-align: center;
     }
 
     .page-footer .page-footer-contacts p {
