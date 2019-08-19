@@ -71,8 +71,35 @@ $('.map-form form').submit(function(e) {
 
 // 
 $('.contact-number form').submit(function(e) {
-  $(this).hide()
-  $('.contact-number .message').addClass('active');
+  let value = Number($('#phone-number').val());
+
+  if(Number.isNaN(value)) {
+    $('.contact-number .error-message').css('display', 'block');
+  } else {
+    $(this).hide()
+    $('.contact-number .message').addClass('active');
+  }
+
+  e.preventDefault();
+})
+
+// 
+$('.header-button .btn').click(function(e) {
+  $('.header-button .modal').addClass('active');
+})
+
+$('.header-button form').submit(function(e) {
+  let value = Number($('#header-phone-number').val());
+
+  console.log(value);
+
+  if(Number.isNaN(value)) {
+    $('#header-phone-number').addClass('error');
+    $('.error-message').css('display', 'block');
+  } else {
+    $('.header-button .message').css('display', 'block');
+  }
+
 
   e.preventDefault();
 })

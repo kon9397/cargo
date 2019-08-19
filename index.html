@@ -24,14 +24,29 @@
                 <div class="header-phones">
                     <img src="./img/phone.png" alt="">
                     <div class="header-phones-numbers">
-                        <p><a href="tel:0966385955">0966385955</a></p>
+                        <p class="desktop-number"><a href="tel:0966385955">0966385955</a></p>
                         <p><a href="tel:0966385955">0980538818</a></p>
                     </div>
                 </div>
                 <div class="header-button">
-                    <a href="#contact-number">
-                        <button type="submit" class="btn">Позвоните мне</button>
-                    </a>
+                    <button type="submit" class="btn">Позвоните мне</button>
+                    <div class="modal">
+                        <div class="modal-wrapper">
+                            <form>
+                                <h3>Введите номер телефона</h3>
+                                <div class="form-group">
+                                    <input type="text" id="header-phone-number" class="phone-number" required placeholder="Введите номер телефона">
+                                    <span class='error-message'>В поле должны быть только цифры</span>
+                                </div>
+                                <div class="button">
+                                    <button type="submit" class="btn">Отправить</button>
+                                </div>
+                                <div class="message">
+                                    <h3>Спасибо! Наши операторы свяжутся с Вами в ближайшее время</h3>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -74,7 +89,8 @@
     <section class="contact-number" id="contact-number">
         <div class="container">
             <form>
-                <input type="number" name="phone-number" id="phone-number" required placeholder="Введите номер телефона">
+                <input type="text" name="phone-number" id="phone-number" required placeholder="Введите номер телефона">
+                <span class='error-message'>В поле должны быть только цифры</span>
                 <button type="submit" class="btn">Заказать</button>
             </form>
             <div class="message">
@@ -271,13 +287,13 @@
                             <div class="flex-row">
                                 <div class="phone">
                                     <h3>Одесса</h3>
-                                    <p><a href="tel:0966385955">0966385955</a></p>
+                                    <p><a href="tel:0966385955">+38 (096) 6385955</a></p>
                                     <div class="phone-networks">
                                         <a href="viber://chat/?number=%2B380966385955" class="network-link"><span class="fab fa-viber"></span></a>
                                         <a href="https://wa.me/0966385955" class="network-link"><span class="fab fa-whatsapp"></span></a>
                                         <a href="https://msng.link/wc/0966385955" class="network-link"><span class="fab fa-weixin"></span></a>
                                     </div>
-                                    <p><a href="tel:0980538818">0980538818</a></p>
+                                    <p><a href="tel:0980538818">+38 (098) 0538818</a></p>
                                     <div class="phone-networks">
                                         <a href="viber://chat/?number=%2B380980538818" class="network-link"><span class="fab fa-viber"></span></a>
                                         <a href="https://wa.me/0980538818" class="network-link"><span class="fab fa-whatsapp"></span></a>

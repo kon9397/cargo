@@ -84,6 +84,63 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
     font-size: 22px;
 }
 
+.page-header .header-button .modal {
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .1s ease;
+}
+
+.page-header .header-button .modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.page-header .header-button .modal .modal-wrapper {
+    position: absolute;
+    min-width: 100%;
+    z-index: 100;
+    border: 1px solid rgba(0, 0, 0, .4);
+    background-color: #ffffff;
+    padding: 10px;
+    top: 5px;
+}
+
+.page-header .header-button .modal .modal-wrapper {
+    text-align: center;
+    border-radius: 20px;
+}
+
+.page-header .header-button .modal .modal-wrapper input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, .4);
+    margin-top: 10px;
+}
+
+.page-header .header-button .modal .modal-wrapper input.error {
+    border-color: #e60012;
+
+}
+
+.error-message {
+    font-size: 14px;
+    color: #e60012;
+    font-weight: bold;
+    display: none;
+}
+
+.page-header .header-button .modal .modal-wrapper .button {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.page-header .header-button .modal .modal-wrapper .btn {
+    padding: 10px 15px;
+    
+}
+
 .page-header .header-phones .header-phones-numbers p:first-child {
     padding-bottom: 20px;
 }
@@ -415,6 +472,10 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
     top: 5%;
 }
 
+.map-form .map .cities-list li:last-child::after {
+    display: none;
+}
+
 .map-form .form {
     width: 30%;
 }
@@ -460,13 +521,15 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
     background-color: #9b9a9a;
 }
 
-.page-footer .flex-row {
+/* .page-footer .flex-row {
     display: flex;
-}
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
 
 .page-footer .page-footer-logo {
-    width: 20%;
-    justify-content: space-between;
+    width: 35%;
+    margin: 0 auto;
 }
 
 .page-footer .page-footer-logo img {
@@ -474,18 +537,19 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
 }
 
 .page-footer .page-footer-contacts {
-    width: 75%;
-    padding-left: 30px;
+    width: 100%;
     color: #292929;
 }
 
 .page-footer .page-footer-contacts .phones .flex-row {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .page-footer .page-footer-contacts .phones .phone {
     width: 33%;
+    text-align: center;
 }
 
 .page-footer .page-footer-contacts .phones .phone h3 {
@@ -508,15 +572,23 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
     display: none;
 }
 
+.page-footer .phone-networks {
+    display: flex;
+    justify-content: center;
+}
+
 .page-footer .phone-networks a {
-    display: inline-block;
     width: 45px;
     padding: 9px 11px;
     text-align: center;
     border-radius: 50%;
     background-color: #292929;
     color: #ffffff;
-    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.page-footer .phone-networks a:first-child {
+    margin-left: 0;
 }
 
 .page-footer .phone-networks a .fab {
@@ -529,7 +601,7 @@ a, p, div, ul, li, span, h1, h2, h3, h4, h5, h6, button {
 }
 
 .page-footer .footer-info {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .page-footer .footer-info .copyright, .page-footer .footer-info .author {
