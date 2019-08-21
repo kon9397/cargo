@@ -41,6 +41,10 @@
         width: 80%;
     }
 
+    .contact-number .btn {
+        margin-top: 20px;
+    }
+
     .about .about-content .about-content-picture {
         display: none;
     }
@@ -162,6 +166,7 @@
     .page-footer .page-footer-logo {
         order: 1;
         width: 40%;
+        padding: 20px 0 45px;
     }
 
     .page-footer .page-footer-contacts {
@@ -240,6 +245,10 @@
         padding-left: 10px;
     }
 
+    .page-header .header-phones .header-phones-numbers p a {
+        font-size: 35px;
+    }
+
     .page-header .header-button {
         order: 3;
         width: 55%;
@@ -281,7 +290,6 @@
 
     .contact-number .btn {
         width: 100%;
-        margin-top: 20px;
     }
 
     .about .about-content .about-content-text {

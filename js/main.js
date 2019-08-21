@@ -91,13 +91,16 @@ $('.header-button .btn').click(function(e) {
 $('.header-button form').submit(function(e) {
   let value = Number($('#header-phone-number').val());
 
-  console.log(value);
-
   if(Number.isNaN(value)) {
     $('#header-phone-number').addClass('error');
-    $('.error-message').css('display', 'block');
+    $('.header-button .error-message').css('display', 'block');
   } else {
+    $('.header-button form').css('display', 'none');
     $('.header-button .message').css('display', 'block');
+
+    setInterval(function() {
+      $('.header-button .modal').removeClass('active');
+    }, 5000)
   }
 
 
