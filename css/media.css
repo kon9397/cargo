@@ -28,10 +28,6 @@
     .slider .slick-next {
         bottom: 15%;
     }
-
-    .desktop-number {
-        display: none;
-    }
     
     .slider.slick-initialized .slick-prev.slick-arrow {
         bottom: 15%;
@@ -257,6 +253,10 @@
 
     .page-header .header-button .btn {
         padding: 15px 20px;
+    }
+
+    .desktop-number {
+        display: none;
     }
 
     .section-title {
